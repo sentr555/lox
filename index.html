@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>женя лох</title> 
+    <style> 
+        body { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb); 
+            font-family: 'Comic Sans MS', cursive, sans-serif; 
+            animation: backgroundAnimation 10s infinite alternate; 
+        } 
+        h1 { 
+            color: white; 
+            font-size: 64px; 
+            text-align: center; 
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); 
+            animation: glow 2s ease-in-out infinite alternate; 
+        } 
+ 
+        @keyframes glow { 
+            from { 
+                text-shadow: 0 0 10px #ff4081, 0 0 20px #ff4081, 0 0 30px #ff4081; 
+            } 
+            to { 
+                text-shadow: 0 0 20px #ff4081, 0 0 30px #ff4081, 0 0 40px #ff4081; 
+            } 
+        } 
+ 
+        @keyframes backgroundAnimation { 
+            from { 
+                background-position: 0% 50%; 
+            } 
+            to { 
+                background-position: 100% 50%; 
+            } 
+        } 
+    </style> 
+</head> 
+<body> 
+    <h1>женя лох</h1> 
+</body> 
+</html>
